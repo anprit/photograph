@@ -3,6 +3,6 @@ $('.slider').slick({
 	slidesToShow: 2,
 	slidesToScroll: 1,
 	autoplay: false,
-	// prevArrow: $('.prev'),
-    // nextArrow: $('.next'),
+	prevArrow: $('.prev'),
+    nextArrow: $('.next'),
   });
